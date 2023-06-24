@@ -1,2 +1,6 @@
-const greeting: string = "Hello world"
-console.log(greeting)
+import app from './app'
+import './database'
+
+app.listen(app.get('port'), () =>{
+    console.log('server on port: ', app.get('port'))
+})
