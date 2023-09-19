@@ -1,0 +1,11 @@
+@host = http://localhost:3000
+GET {{host}}/videos
+
+###
+GET {{host}}/video/1
+###
+POST {{host}}/videos
+###
+DELETE {{host}}/video/1
+###
+PUT {{host}}/videos/1
